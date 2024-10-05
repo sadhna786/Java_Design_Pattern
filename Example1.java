@@ -6,5 +6,8 @@ public class Example1 {
 
         Singleton singleton2 = Singleton.getSingleton();
         System.out.println(singleton2.hashCode());
+
+        System.out.println(Singleton2.getSingleton2().hashCode());
+        System.out.println(Singleton2.getSingleton2().hashCode());
     }
 }
